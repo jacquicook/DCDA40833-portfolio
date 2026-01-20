@@ -7,15 +7,14 @@
    CSS Variables (Color Scheme)
    ========================= */
 :root {
-    --primary-color: #4d1979;      /* TCU Purple */
-    --secondary-color: #7c3aed;    /* Light Purple */
-    --accent-color: #ffd700;       /* Gold accent */
-    --text-color: #333;            /* Dark gray for text */
-    --text-secondary: #64748b;     /* Lighter gray for captions */
-    --bg-color: #f4f4f4;           /* Light background */
+    --primary-color: #f472b6;      
+    --secondary-color: #86efac;    
+    --accent-color: #fb7185;       
+    --text-color: #374151;        
+    --text-secondary: #6b7280;     
+    --bg-color: #fdf2f8;          
     --white: #ffffff;
 }
-
 /* =========================
    Basic Reset & Typography
    ========================= */
@@ -61,7 +60,7 @@ header p {
 }
 
 nav {
-    background-color: #3d1461;
+    background-color: #ec4899;;
     padding: 0.75rem;
     display: flex;              /* Make nav a flex container */
     justify-content: center;    /* Center the ul inside nav */
@@ -161,12 +160,12 @@ main section li {
 }
 
 .viz-container img {
-    max-width: 100%;           /* Responsive: never wider than container */
-    height: auto;              /* Maintain aspect ratio */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 0.5rem;
+    max-width: 250px;   /* makes the image smaller */
+    height: auto;
+    display: block;
+    margin: 0 auto;     /* centers it */
 }
+
 
 /* Figure captions */
 .viz-container figcaption {
