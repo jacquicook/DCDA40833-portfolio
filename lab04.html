@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 04 – Tableau Visualization</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <h1>Lab 04: Digital Habits vs Mental Health</h1>
+
+  <section>
+    <h2>Visualization</h2>
+    <div class='tableauPlaceholder' id='viz1770939069100' style='position: relative'><noscript><a href='#'><img alt='Screen Time vs Stress Level ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;DigitalHabitsvsMentalHealth&#47;ScreenTimevsStressLevel&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DigitalHabitsvsMentalHealth&#47;ScreenTimevsStressLevel' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;DigitalHabitsvsMentalHealth&#47;ScreenTimevsStressLevel&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1770939069100');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+
+
+  </section>
+
+  <section>
+    <h2>Reflection & Analysis</h2>
+
+    <h3>1. Data Preparation</h3>
+    <p>I used the Digital Habits vs Mental Health dataset, which looks at screen time, social media use, and stress levels. The data was already clean and well-organized, so no major preparation was needed. After uploading the CSV into Tableau Public, I confirmed that screen time and stress level were treated as numerical variables and ready for visualization.</p>
+
+    <h3>2. Design Choices</h3>
+    <p>I created a scatter plot to show the relationship between screen time hours and stress level. Screen time was placed on the x-axis and stress level on the y-axis to reflect a possible relationship between the two. I used circles to represent individual data points and adjusted their size to reduce overlap. Color was added based on hours spent on TikTok to provide additional context without making the chart too complicated.</p>
+
+    <h3>3. Expected Patterns</h3>
+    <p>Before creating the visualization, I expected that higher screen time would generally be associated with higher stress levels. I also expected individuals who spent more time on TikTok to appear more frequently at higher screen time values.</p>
+
+    <h3>4. Surprises / Outliers</h3>
+    <p>While many points followed the expected pattern, there were some outliers. A few individuals reported high screen time but lower stress levels, while others reported higher stress even with moderate screen time. This suggests that screen time alone does not fully explain stress levels.</p>
+
+    <h3>5. Questions for Further Investigation</h3>
+    <p>This visualization raises questions about other factors that may influence stress, such as sleep habits or overall mental health. Future analysis could explore how sleep hours or mood scores interact with screen time and stress.</p>
+
+    <h3>6. Tool Evaluation</h3>
+    <p>Tableau Public was effective for creating this visualization because it allowed quick experimentation with different design choices. While some features required trial and error, the tool made it easy to identify patterns and adjust the visualization to clearly communicate the results.</p>
+  </section>
+
+</body>
+</html>
