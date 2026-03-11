@@ -1,41 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Lab 6 – Interactive Map</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6 – Interactive Map</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-<h1>Lab 6: Interactive Hometown Map</h1>
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="lab06.html" class="active">Lab 6: Interactive Map</a>
+    </nav>
 
-<h2>Interactive Map</h2>
+    <h1>Lab 6: Interactive Hometown Map</h1>
+</header>
 
-<iframe src="hometown_map.html" width="100%" height="600"></iframe>
+<main>
 
-<h2>Reflection</h2>
+    <section>
+        <h2>Interactive Map</h2>
+        <iframe src="hometown_map.html" width="100%" height="600"></iframe>
+    </section>
 
-<p>
-For my basemap design, I wanted the map to look different from normal maps that are usually gray or plain. 
-I chose a bright orange color for the land and used blue for the water so it would stand out. I also added 
-simple colors for roads and buildings so the map would still be easy to read. My goal was to make the map 
-look clean, colorful, and visually interesting while still showing the important features.
-</p>
+    <section>
+        <h2>Overview</h2>
+        <ul>
+            <li>Design a custom Mapbox basemap</li>
+            <li>Build an interactive hometown map using Python and Folium</li>
+        </ul>
+    </section>
 
-<p>
-One challenge I faced when designing the basemap was thinking about how the map should look at different 
-zoom levels. If too many things appear on the map at the same time, it can look messy and confusing. I 
-decided to focus on the most important features like roads, water, and buildings. Larger features are 
-easier to see when the map is zoomed out, while smaller details become more useful when the map is zoomed 
-in closer. This helped keep the map clear and readable.
-</p>
+    <section>
+        <h2>Learned</h2>
+        <ul>
+            <li>How basemap design affects the look and readability of a map</li>
+            <li>How Python and Mapbox can work together to create an interactive map</li>
+            <li>How troubleshooting style IDs, tokens, and published maps is part of the mapping process</li>
+        </ul>
+    </section>
 
-<p>
-The technical part of the assignment was also challenging because I had to connect Mapbox with Python to 
-create the interactive map. Sometimes the map did not display correctly, and it took time to figure out 
-what was wrong. I had to make sure the style was published and that the access token and style ID were 
-correct in the code. I used AI tools to help understand some of the coding steps and fix errors. This 
-helped me complete the assignment and better understand how the tools work together.
-</p>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Python mapping</li>
+            <li>Mapbox customization</li>
+            <li>Interactive geographic storytelling</li>
+        </ul>
+    </section>
 
+    <section>
+        <h2>Reflection</h2>
+
+        <p>
+            For my basemap design, I wanted the map to look different from normal maps that are usually gray or plain.
+            I chose a bright orange color for the land and used blue for the water so it would stand out. My goal was to make the map
+            look clean, colorful, and visually interesting while still showing the important features. I am from Forth Worth and added 10 locations that were meaningful to me such as my favorite restaurant, favorite shopping area, etc.
+        </p>
+
+        <p>
+            This was the hardest lab for me in the course. Working with Mapbox and connecting it with Python took 
+a lot of troubleshooting, and there were times when the map did not display the way I expected. Even though 
+I was able to get the map working, I am still not completely sure that I achieved everything I originally 
+wanted the map to show. However, the process helped me better understand how basemap design, styling, and 
+interactive mapping work together.
+        </p>
+
+    
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Jacqui Cook | DCDA 40833 | TCU</p>
+</footer>
+
+<script src="js/dark-mode.js"></script>
 </body>
 </html>

@@ -496,3 +496,10 @@ body.dark-mode .portfolio-card:hover {
 #dark-mode-toggle:hover {
   transform: translateY(-50%) scale(1.1);
 }
+
+.section-title {
+    color: #ff5fa2;          /* pink heading */
+    border-bottom: 4px solid #7ed6a5;  /* green line */
+    padding-bottom: 6px;
+    margin-top: 40px;
+}
